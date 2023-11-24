@@ -59,6 +59,11 @@ img {
     align-items: center;
 }
 
+.header__user:hover {
+    -webkit-filter: drop-shadow(0 0 5px #23B04A);
+    filter: drop-shadow(0 0 5px #23B04A);
+}
+
 .menu__dash {
     display: flex;
     align-items: center;
