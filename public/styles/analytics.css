@@ -1,3 +1,7 @@
+main {
+    padding: 0;
+}
+
 .container {
     display: flex;
     padding: 52px 96px;
@@ -48,7 +52,7 @@
 
 .title__heading {
     color: rgba(0, 0, 0, 0.87);
-    font-feature-settings: 'clig' off, 'liga' off;
+
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -63,7 +67,7 @@
 
 .state__text {
     color: rgba(0, 0, 0, 0.60);
-    font-feature-settings: 'clig' off, 'liga' off;
+
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -73,7 +77,7 @@
 
 #pointer {
     color: rgba(0, 0, 0, 0.38);
-    font-feature-settings: 'clig' off, 'liga' off;
+
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -108,7 +112,7 @@
 
 .select__frame {
     color: #23B04A;
-    font-feature-settings: 'clig' off, 'liga' off;
+
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -198,7 +202,7 @@
 
 .button2__text {
     color: #23B04A;
-    font-feature-settings: 'clig' off, 'liga' off;
+
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -245,7 +249,7 @@
 .date__text {
     flex: 1 0 0;
     color: #3C3C3C;
-    font-feature-settings: 'clig' off, 'liga' off;
+
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -316,7 +320,7 @@
 
 .chip__text {
     color: rgba(0, 0, 0, 0.60);
-    font-feature-settings: 'clig' off, 'liga' off;
+
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -325,5 +329,128 @@
 }
 
 .card__table {
+    display: flex;
+    padding: 12px 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
 
+.table__heading__text {
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.25px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.duration {
+    width: 160px;
+    display: flex;
+    align-items: flex-start;
+    padding: 12px;
+    color: rgba(0, 0, 0, 0.38);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.25px;
+}
+
+.status__frame {
+    width: 130px;
+    height: 124px;
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex: 1 0 0;
+    padding: 12px;
+    align-self: stretch;
+    flex-direction: column;
+    gap: 0;
+    margin: 0;
+}
+
+.head__text {
+    display: flex;
+    align-items: flex-start;
+    color: #23B04A;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.25px;
+}
+
+.status__text {
+    display: flex;
+    align-items: flex-start;
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.25px;
+}
+
+.jobs {
+    display: flex;
+    align-items: flex-start;
+    padding: 12px;
+    flex: 1 0 0;
+    align-self: stretch;
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    flex-direction: column;
+}
+
+.result__frame {
+    height: 124px;
+    width: 140px;
+    display: flex;
+    padding: 12px 6px 12px 12px;
+    align-items: flex-start;
+    align-self: stretch;
+    flex-direction: row;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.result__text {
+    color: rgba(0, 0, 0, 0.60);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.25px;
+}
+
+.user {
+    width: 140px;
+    display: flex;
+    padding: 12px;
+    align-items: flex-start;
+    gap: 6px;
+    align-self: stretch;
+}
+
+.user__nick {
+    color: #2E9BC2;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.25px;
 }
