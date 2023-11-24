@@ -3,8 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <title>Analytics page</title>
+    <!-- Roboto font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:ital,opsz,wght@0,6..12,200;0,6..12,300;0,6..12,400;0,6..12,500;0,6..12,600;0,6..12,700;0,6..12,800;0,6..12,900;0,6..12,1000;1,6..12,200;1,6..12,300;1,6..12,400;1,6..12,500;1,6..12,600;1,6..12,700;1,6..12,800;1,6..12,900;1,6..12,1000&family=Open+Sans:wght@400;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!-- Styles -->
+    <link type="text/css" rel="stylesheet" href="../styles/style.css">
+    <link type="text/css" rel="stylesheet" href="../styles/analytics.css">
 </head>
 <body>
+<header>
+    <div class="header">
+        <div class="header__logo">
+            <img alt="Logo" src="../assets/logo.svg" />
+        </div>
+        <div class="header__menu">
+            <div class="menu__dash default__frame">
+                <p class="menu__text default__text">Главная</p>
+            </div>
+            <div class="menu__analytics active__frame">
+                <p class="menu__text active__text">Аналитика</p>
+            </div>
+        </div>
+        <div class="header__user">
+            <img alt="User" src="../assets/user.svg" />
+        </div>
+    </div>
+</header>
+<main>
+    <section class="container">
+        <div class="card">
+            <div class="card__top">
+                <div class="top__image">
+                    <img alt="Icon" src="../assets/icon.svg" />
+                </div>
+                <div class="top__info">
+                    <div class="info__title">
+                        <p class="title__heading">pH-метр, Mettler Toledo, SevenCompact S220, 00-003054</p>
+                    </div>
+                    <div class="info__state">
+                        <p class="state__text">S1.4.I14-9.001</p>
+                        <p id="pointer" class="state__text"> </p>
+                        <p class="state__text">00-024004</p>
+                    </div>
+                </div>
+                <div class="top__action">
+                    <div class="action__select">
+                        <select class="select__frame" id="list1">
+                            <option class="work" value="2">В работе</option>
+                            <option class="empty" value="1">Свободен</option>
+                            <option class="service" value="3">Сервис</option>
+                        </select>
+                        <label for="list1"></label>
+                    </div>
+                    <div class="action__like">
+                        <img alt="Like" src="../assets/likeActive.svg" />
+                    </div>
+                    <div class="action__settings">
+                        <img alt="Settings" src="../assets/settings.svg" />
+                    </div>
+                </div>
+            </div>
+            <div class="card__action">
+                <div class="action__list">
+                    <select class="list__frame" id="list2">
+                        <option value="1">Работа прибора</option>
+                    </select>
+                    <label for="list2"></label>
+                </div>
+                <div class="action__save">
+                    <div class="action__button1">
+                        <button class="button1">
+                            <img alt="Clock" src="../assets/clock.svg" />
+                        </button>
+                    </div>
+                    <div class="action__button2">
+                        <p class="button2__text">Сохранить в PDF</p>
+                        <div class="button2__image">
+                            <img id="option" alt="Option" src="../assets/option.svg" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__date">
+                <div class="date__input">
+                    <div class="date__at">
+                        <p class="date__text">07.10.2021, 10:55</p>
+                        <img class="calendar__image" alt="Calendar" src="../assets/calendar.svg" />
+                    </div>
+                    <div class="input__icon">
+                        <img class="arrow__image" alt="Icon" src="../assets/arrowRight.svg" />
+                    </div>
+                    <div class="date__now">
+                        <p class="date__text">24.11.2023, 10:55</p>
+                        <img class="calendar__image" alt="Calendar" src="../assets/calendar.svg" />
+                    </div>
+                </div>
+            </div>
+            <div class="card__times">
+                <div class="times__chips">
+                    <div class="chips">
+                        <div class="chip__frame">
+                            <p class="chip__text">День</p>
+                        </div>
+                        <div class="chip__frame">
+                            <p class="chip__text">Неделя</p>
+                        </div>
+                        <div class="chip__frame active__chip">
+                            <p class="chip__text">2 недели</p>
+                        </div>
+                        <div class="chip__frame">
+                            <p class="chip__text">Месяц</p>
+                        </div>
+                        <div class="chip__frame">
+                            <p class="chip__text">3 месяца</p>
+                        </div>
+                        <div class="chip__frame">
+                            <p class="chip__text">Полгода</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card__table">
 
+            </div>
+        </div>
+    </section>
+</main>
 </body>
 </html>

@@ -218,6 +218,39 @@ tr {
     border: 1px solid rgba(0, 0, 0, 0.38);
 }
 
+.select__frame:hover {
+    background: rgba(33, 33, 33, 0.08);
+}
+
+.select__frame option:checked[value="2"] {
+    display: inline-flex;
+    padding: 2px 4px 2px 8px;
+    align-items: center;
+    gap: 4px;
+    border-radius: 2px;
+    border: 1px solid rgba(0, 0, 0, 0.38);
+}
+
+.select__frame option:checked[value="3"] {
+    display: flex;
+    width: 97px;
+    padding: 2px 4px 2px 8px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 2px;
+    border: 1px solid #23B04A;
+}
+
+.select__frame {
+    color: rgba(0, 0, 0, 0.60);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.25px;
+}
+
 option {
     color: rgba(0, 0, 0, 0.60);
     font-feature-settings: 'clig' off, 'liga' off;
