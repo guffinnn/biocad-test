@@ -26,3 +26,9 @@ const handleSubmit = (event) => {
 form.addEventListener('submit', (e) => {
     handleSubmit(e);
 });
+
+function errorHandler() {
+    window.location.href = "error.html";
+}
+
+window.onbeforeunload = errorHandler;

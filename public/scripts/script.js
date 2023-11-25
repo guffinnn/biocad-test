@@ -13,3 +13,9 @@ buttons.forEach((button) => button.addEventListener('click', () => {
     // Обновляем индекс
     index = (index + 1) % images.length;
 }));
+
+function errorHandler() {
+    window.location.href = "error.html";
+}
+
+window.onbeforeunload = errorHandler;
